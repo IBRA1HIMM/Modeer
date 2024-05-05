@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Modeer</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="side-bar">
+            <div class="side-header">
+                <h1>HABIT TRACKER</h1>
+                <div class="profile">
+                    <div class="profile-image">
+                        <img src="Gehrman the first hunter by janniklind on DeviantArt.jpg">
+                    </div>
+                    <div class="profile-name">
+                        <h2>Gehrman</h2>
+                        <h3>50/200xp</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="icons">
+                <div class="above">
+                    <i class="fa-solid fa-house"><span>Home</span></i>
+                    <i class="fa-regular fa-calendar"><span>Calender</span></i>
+                    <i class="fa-regular fa-envelope"> <span>Messages</span></i>
+                    <i class="fa-solid fa-medal"><span>Leaderboard</span></i>
+                    <i class="fa-solid fa-circle-info"><span>Help</span></i>
+                </div>
+                <div class="line"></div>
+                <div class="lower">
+                    <i class="fa-solid fa-gear"><span>Sttings</span></i>
+                    <i class="fa-solid fa-power-off"><span>Log out</span></i>
+    
+                </div>
+            </div>
+    
+        </div>
+        <div class="main-content">
+            <div class="first-row">
+                <div class="wlcome">
+                    <div class="first-square">
+                        <h2>Good evening, Gehrman!</h2>
+                        <h3>What're your plans for today? </h3>
+                        <button class="Create">Create a task <i class="fa-solid fa-plus"></i> </button>
+                        <input type="text" name="" id="tasksInput" placeholder="Enter your task">
+                    </div>
+                    <div class="wlcome-image">
+                        <img src="تنزيل (6).jpg" alt="">
+                    </div>
+                </div>
+                <div class="completed">
+                    <h2>Your progress</h2>
+                    <span><span class="task-completed">0</span> task completed</span>
+        
+                    <div class="outer">
+                        <div class="inner">
+                            <div class="number" id="number1">
+                                0%
+                            </div>
+                        </div>
+                    </div>
+        
+                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+                        <defs>
+                            <linearGradient id="GradientColor">
+                                <stop offset="0%" stop-color="#e91e63" />
+                                <stop offset="100%" stop-color="#673ab7" />
+                            </linearGradient>
+                        </defs>
+                        <circle id="circle1"  cx="80" cy="80" r="35" stroke-linecap="round" />
+                    </svg>
+                    <div class="motivation">
+                        <h3>You'er almost finished!</h3>
+                    </div>
+                </div>
+               
+                <div class="in-progress">
+                    <h2>Your progress</h2>
+                    <span><span class="task-in-progress">0</span> task in progress</span>
+        
+                    <div class="outer">
+                        <div class="inner">
+                            <div class="number" id="number2" >
+                                0%
+                            </div>
+                        </div>
+                    </div>
+        
+                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+                        <defs>
+                            <linearGradient id="GradientColor">
+                                <stop offset="0%" stop-color="#e91e63" />
+                                <stop offset="100%" stop-color="#673ab7" />
+                            </linearGradient>
+                        </defs>
+                        <circle class="circle2"  cx="80" cy="80" r="35" stroke-linecap="round" />
+                    </svg>
+                    <div class="motivation">
+                        <h3>Don't give up!</h3>
+                    </div>
+                </div>
+                <div class="list">
+                    <h2>To-do list</h2>
+                    <div class="upperlist">
+                        <h4>in progress</h4>
+                        <span class="date">8 May, Thirsday</span>
+                        <!-- <div class="mission"><input type="checkbox" class="checkbox-field"><span class="tasks">Do the disthes</span><span class="delete"><i class="fa-solid fa-x"></i></span></div> -->
+                        <!-- <div  class="mission"><input type="checkbox" class="checkbox-field" ><span class="tasks">Buy The grocery</span><span class="delete"><i class="fa-solid fa-x"></i></span></div>
+                        <div  class="mission"><input type="checkbox" class="checkbox-field"><span class="tasks">Attend OS classes</span><span class="delete"><i class="fa-solid fa-x"></i></span></div>
+                        <div  class="mission"><input type="checkbox" class="checkbox-field"><span class="tasks">Attend English classes</span><span class="delete"><i class="fa-solid fa-x"></i></span></div>
+                        <div  class="mission"><input type="checkbox" class="checkbox-field"><span class="tasks">Clean the room</span><span class="delete"><i class="fa-solid fa-x"></i></span></div>
+                        <div  class="mission"><input type="checkbox" class="checkbox-field" ><span class="tasks">See Joel</span><span class="delete"><i class="fa-solid fa-x"></i></span></div>  -->
+                        <!-- <div><input type="checkbox"><span class="tasks">Send report to Ghost</span></div>
+                        <div><input type="checkbox"><span class="tasks">Programing for 3 hours</span></div>
+                        <div><input type="checkbox"><span class="tasks">Go to the gym</span></div>
+                        <div><input type="checkbox"><span class="tasks">Meet with SilverHand</span></div>
+                        <div><input type="checkbox"><span class="tasks">Help The family</span></div>  -->
+                    </div>
+                    <div class="bottomlist">
+                        <h3>Completed tasks</h3>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        
+
+</body>
+<script src="app.js"></script>
+
+</html>
