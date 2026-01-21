@@ -21,6 +21,10 @@ A task management application featuring animated circular progress indicators. T
 - CSS
 - Vanilla JavaScript (no frameworks or libraries)
 
+##  Live Demo
+
+Check out the live application here: [Ultimate Todo List](http://ultimatetodolist.s3-website.eu-north-1.amazonaws.com/)
+
 ## How to Run
 
 Simply open `index.html` in your browser.
