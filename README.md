@@ -4,7 +4,7 @@
   <img width="800" alt="Modeer UI Overview" src="https://github.com/user-attachments/assets/dd58392e-7dd0-49e8-a01d-d68946f175bb" />
 </div>
 
-## Demo
+## Demo Video
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/427b61a0-cd38-4f03-a8b4-9b195ad91ca4" alt="Animation 1" width="700">
